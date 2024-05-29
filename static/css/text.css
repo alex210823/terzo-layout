@@ -1,0 +1,18 @@
+.paragraph p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.paragraph h2 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
