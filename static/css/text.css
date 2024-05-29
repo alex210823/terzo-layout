@@ -1,18 +1,30 @@
 .paragraph p {
   font-size: 30px;
-  color: white;
+  color: #fff;
+  font-family: Hoefler;
+  font-style: normal;
   text-align: center;
+  margin-top: 55px;
+  margin-bottom: 0px;
 }
 
-.paragraph h2 {
+.paragraph h1 {
   font-size: 80px;
   color: #fff;
-  text-align: center;
+  font-family: Merriweather;
+  border-top: solid;
+  border-bottom: solid;
+  border-bottom-color: #343434;
+  border-top-color: #343434;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0px;
 }
 
 .paragraph {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
